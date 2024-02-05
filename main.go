@@ -14,7 +14,7 @@ var signs = []string{"+", "-", "*", "/"}
 
 func input() string {
 	reader := bufio.NewReader(os.Stdin)
-	text, _ := reader.ReadString('\n') // обработать ошибку
+	text, _ := reader.ReadString('\n')
 	text = strings.TrimSpace(text)
 	return text
 }
